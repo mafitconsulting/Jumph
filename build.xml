@@ -65,6 +65,7 @@
  <target name="bower" description="Installing bower dependencies">
   <exec executable="bower" failonerror="true">
    <arg value="install" />
+   <arg value="--allow-root" />
   </exec>
  </target>
 
