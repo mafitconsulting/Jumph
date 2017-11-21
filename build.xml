@@ -177,7 +177,7 @@
  <target name="phpunit"
          depends="prepare"
          description="Run unit tests with PHPUnit">
-  <exec executable="${toolsdir}phpunit" failonerror="true">
+  <exec executable="${toolsdir}phpunit" failonerror="false">
    <arg value="--configuration"/>
    <arg path="${basedir}/build/phpunit.xml"/>
   </exec>
